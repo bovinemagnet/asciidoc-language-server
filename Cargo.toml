@@ -1,0 +1,15 @@
+[package]
+name = "asciidoc-language-server"
+version = "0.0.0"
+edition = "2021"
+license = "Apache-2.0"
+repository = "https://github.com/bovinemagnet/asciidoc-language-server"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+zed_extension_api = "=0.7.0"
+
+[lints.rust]
+unsafe_code = "forbid"
