@@ -1,0 +1,11 @@
+id = "asciidoc-language-server"
+name = "AsciiDoc Language Server"
+version = "0.0.0"
+schema_version = 1
+authors = ["Paul Snow"]
+description = "The adoc-ls language server for AsciiDoc and Antora"
+repository = "https://github.com/bovinemagnet/asciidoc-language-server"
+
+[language_servers.adoc-ls]
+name = "adoc-ls"
+languages = ["AsciiDoc"]
