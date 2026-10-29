@@ -26,3 +26,6 @@ target
 
 # Build artefacts produced by Zed when compiling the dev extension
 extension.wasm
+
+# Local development notes
+CLAUDE.md
